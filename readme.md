@@ -19,6 +19,8 @@ NOTE: This extension only MUTES your tab : the ad will still be running, but you
 ## Current state
 The extension hasn't been working for a while (since a Google Chrome or Spotify update).
 
+*(Please see [Issue #1](https://github.com/polofgrs/spotify-ad-silencer/issues/1) !)*
+
 **Unfortunately, due to personal matters, I will not be able to maintain the extension anymore.**  
 
 So I removed the extension from the Chrome web store (It was previously available [here](https://chrome.google.com/webstore/detail/lchpmljhgbcbmmihjoecchifkfmnpjhh)).  
