@@ -1,0 +1,37 @@
+#logo {
+    height: 32px;
+    width: 32px;
+    margin-right: 10px;
+}
+
+#wrapper {
+    font-size: 15px;
+    margin: 0px 0px;
+    width: 210px;
+    max-height: 606px;
+}
+
+#title-logo, #extension-status, #tab-status, #count-status, #donate {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#donate {
+    margin-top: 5px;
+    height: 30px;
+}
+
+#donate-btn {
+    height: 25px;
+    background-color: #253b80;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

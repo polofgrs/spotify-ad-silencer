@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <!--stylesheet-->
+        <link rel="stylesheet" href="popup.css">
+    </head>
+
+    <body>
+        <div id="wrapper">
+            <!--title-->
+            <div id="title-logo">
+                <img src="logos/logo32.png" id="logo">
+                <h3>
+                    Spotify Ad Silencer
+                </h3>
+            </div>
+
+            <!--Extension status (initialising or active)-->
+            <div id="extension-status">
+                Extension is&nbsp;
+                <b id="extension-editable"></b>
+            </div>
+
+            <!--Tab status (muted or unmuted)-->
+            <div id="tab-status">
+                Tab is&nbsp;
+                <b id="tab-editable"></b>
+            </div>
+
+            <!--Number of silenced ads-->
+            <div id="count-status">
+                Silenced ads:&nbsp;
+                <b id="count-editable"></b>
+            </div>
+
+            <!--Put your Paypal link if you want to add a "DONATE" option in the popup-->
+            <!--div id="donate">
+                <a href="https://paypal.me/YOURLINK" target="_blank">
+                    <button type="button" id="donate-btn">
+                        Support the developer
+                    </button>
+                </a>
+            </div-->
+        </div>
+    </body>
+
+    <!--script to update all of the above fields-->
+    <script src="popup.js"></script>
+
+</html>
